@@ -1,4 +1,4 @@
-# @mag/prettier-config
+# @AZMAG/prettier-config
 
 Maricopa Association of Governments (MAG) [Prettier](https://prettier.io) config for use in project files.
 
@@ -7,7 +7,7 @@ Maricopa Association of Governments (MAG) [Prettier](https://prettier.io) config
 **Install**:
 
 ```bash
-$ yarn add --dev @mag/prettier-config
+$ yarn add --dev @AZMAG/prettier-config
 ```
 
 **Edit `package.json`**:
@@ -15,6 +15,6 @@ $ yarn add --dev @mag/prettier-config
 ```jsonc
 {
   // ...
-  "prettier": "@mag/prettier-config"
+  "prettier": "@AZMAG/prettier-config"
 }
 ```
