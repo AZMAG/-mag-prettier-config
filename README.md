@@ -1,4 +1,4 @@
-# @mag-prettier-config
+# @mag/prettier-config
 
 Maricopa Association of Governments (MAG) [Prettier](https://prettier.io) config for use in project files.
 
