@@ -2,9 +2,11 @@
 
 # mag-prettier-config
 
-![npm](https://img.shields.io/npm/v/prettier-config)
-[![Semver](http://img.shields.io/SemVer/2.0.0.png)](https://shields.io/)
-[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/AZMAG/mag-prettier-config)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/AZMAG/mag-prettier-config)
+[![npm version](https://badge.fury.io/js/mag-prettier-config.svg)](https://badge.fury.io/js/mag-prettier-config)
+[![GitHub issues](https://img.shields.io/github/issues/AZMAG/mag-prettier-config)](https://github.com/AZMAG/mag-prettier-config/issues)
+[![GitHub license](https://img.shields.io/github/license/AZMAG/mag-prettier-config)](https://github.com/AZMAG/mag-prettier-config/blob/main/LICENSE)
 
 This repo is a Maricopa Association of Governments (MAG) [Prettier](https://prettier.io) config for use in project files.
 
@@ -13,13 +15,13 @@ This repo is a Maricopa Association of Governments (MAG) [Prettier](https://pret
 **Install**:
 
 ```bash
-$ npm install --save-dev mag-prettier-config
+$ npm i mag-prettier-config --save-dev
 ```
 
 or
 
 ```bash
-$ yarn add --save-dev mag-prettier-config
+$ yarn add mag-prettier-config --dev
 ```
 
 **Edit**:
@@ -43,7 +45,7 @@ If you change any options, it’s recommended to do it via the [configuration fi
 
 ## Version
 
-### version | 1.0.2
+### version | 1.0.3
 
 - #### Updated | 2021-11-08
 - #### Created | 2021-11-08
