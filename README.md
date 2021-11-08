@@ -24,6 +24,8 @@ $ yarn add --dev @AZMAG/prettier-config
   "prettier": "@AZMAG/prettier-config"
 }
 ```
+## Options
+[Prettier Options](https://prettier.io/docs/en/options.html) 
 
 ## Version
 
