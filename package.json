@@ -1,9 +1,31 @@
 {
   "name": "@AZMAG/prettier-config",
   "version": "1.0.0",
+  "date": "2021-11-08",
+  "copyright": "2021",
   "description": "MAG Prettier config",
+  "private": false,
   "main": "index.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AZMAG/prettier-config.git"
+  },
   "repository": "git@github.com:AZMAG/prettier-config.git",
-  "author": "Maricopa Association of Governments (MAG)",
+  https://github.com/AZMAG/prettier-config.git
+  "author": {
+    "name": "MAG Regional Analytics",
+    "email": "mag@azmag.gov",
+    "url": "https://www.azmag.gov/About-Us/Divisions/Regional-Analytics-Division"
+  },
+  "contributors": [
+    {
+      "name": "Vern Wolfley",
+      "email": "vwolfley@azmag.gov"
+    },
+    {
+      "name": "Jack Fairfield",
+      "email": "jfairfield@azmag.gov"
+    }
+  ],
   "license": "MIT"
 }
