@@ -54,5 +54,5 @@ Code released under the MIT license.
 
 - [LICENSE](LICENSE)
 
-[(Back to top)](#@AZMAG/prettier-config)
+[(Back to top)](#AZMAG-prettier-config)
 
