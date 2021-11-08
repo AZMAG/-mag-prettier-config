@@ -41,7 +41,7 @@ If you change any options, it’s recommended to do it via the [configuration fi
 
 ## Version
 
-### version | 1.0.0
+### version | 1.0.1
 
 - #### Updated | 2021-11-08
 - #### Created | 2021-11-08
