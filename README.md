@@ -13,16 +13,18 @@ This repo is a Maricopa Association of Governments (MAG) [Prettier](https://pret
 **Install**:
 
 ```bash
-$ npm install --dev mag-prettier-config
+$ npm install --save-dev mag-prettier-config
 ```
 
 or
 
 ```bash
-$ yarn add --dev mag-prettier-config
+$ yarn add --save-dev mag-prettier-config
 ```
 
-**Edit `package.json`**:
+**Edit**:
+
+Once you have installed the module you will need to add this reference to your `package.json`
 
 ```jsonc
 {
@@ -41,7 +43,7 @@ If you change any options, it’s recommended to do it via the [configuration fi
 
 ## Version
 
-### version | 1.0.1
+### version | 1.0.2
 
 - #### Updated | 2021-11-08
 - #### Created | 2021-11-08
