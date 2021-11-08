@@ -1,29 +1,36 @@
 {
-  "name": "@AZMAG/prettier-config",
-  "version": "1.0.0",
+  "name": "mag-prettier-config",
+  "version": "1.0.1",
   "date": "2021-11-08",
   "copyright": "2021",
   "description": "MAG Prettier config",
   "private": false,
   "main": "index.json",
+  "homepage": "https://github.com/AZMAG/mag-prettier-config#readme",
+  "bugs": {
+    "url": "https://github.com/AZMAG/mag-prettier-config/issues"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AZMAG/prettier-config.git"
+    "url": "git@github.com/AZMAG/mag-prettier-config.git"
   },
-  "author": {
-    "name": "MAG Regional Analytics",
-    "email": "mag@azmag.gov",
-    "url": "https://www.azmag.gov/About-Us/Divisions/Regional-Analytics-Division"
-  },
+  "author": "MAG Regional Analytics <mag@azmag.gov> (https://www.azmag.gov/About-Us/Divisions/Regional-Analytics-Division)",
   "contributors": [
-    {
-      "name": "Vern Wolfley",
-      "email": "vwolfley@azmag.gov"
-    },
-    {
-      "name": "Jack Fairfield",
-      "email": "jfairfield@azmag.gov"
-    }
+    "Vern Wolfley <vwolfley@azmag.gov>",
+    "Jack Fairfield <jfairfield@azmag.gov>"
   ],
+  "dependencies": {},
+  "devDependencies": {
+    "prettier": "^2.4.1",
+    "replace-in-file": "^6.2.0"
+  },
+  "scripts": {
+    "start": "",
+    "build": "",
+    "prepublishOnly": "npm run replace",
+    "replace": "node replaceScripts",
+    "test": "",
+    "eject": ""
+  },
   "license": "MIT"
 }

@@ -1,6 +1,6 @@
 ![](http://geo.azmag.gov/maps/readonaz/app/resources/img/maglogo_black.png)
 
-# @AZMAG/prettier-config
+# mag-prettier-config
 
 ![npm](https://img.shields.io/npm/v/prettier-config)
 [![Semver](http://img.shields.io/SemVer/2.0.0.png)](https://shields.io/)
@@ -13,7 +13,13 @@ This repo is a Maricopa Association of Governments (MAG) [Prettier](https://pret
 **Install**:
 
 ```bash
-$ yarn add --dev @AZMAG/prettier-config
+$ npm install --dev mag-prettier-config
+```
+
+or
+
+```bash
+$ yarn add --dev mag-prettier-config
 ```
 
 **Edit `package.json`**:
@@ -21,15 +27,17 @@ $ yarn add --dev @AZMAG/prettier-config
 ```jsonc
 {
   // ...
-  "prettier": "@AZMAG/prettier-config"
+  "prettier": "mag-prettier-config"
 }
 ```
+
 ## Options
+
 Prettier ships with a handful of format options.
 
 [Prettier Options](https://prettier.io/docs/en/options.html)
 
-If you change any options, it’s recommended to do it via the [configuration file](https://github.com/AZMAG/prettier-config/blob/main/index.json).
+If you change any options, it’s recommended to do it via the [configuration file](https://github.com/AZMAG/mag-prettier-config/blob/main/index.json).
 
 ## Version
 
@@ -61,4 +69,3 @@ Code released under the MIT license.
 - [LICENSE](LICENSE)
 
 [(Back to top)](#azmagprettier-config)
-
