@@ -25,7 +25,11 @@ $ yarn add --dev @AZMAG/prettier-config
 }
 ```
 ## Options
-[Prettier Options](https://prettier.io/docs/en/options.html) 
+Prettier ships with a handful of format options.
+
+[Prettier Options](https://prettier.io/docs/en/options.html)
+
+If you change any options, it’s recommended to do it via the [configuration file](https://github.com/AZMAG/prettier-config/blob/main/index.json).
 
 ## Version
 
