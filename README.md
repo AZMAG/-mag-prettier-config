@@ -6,7 +6,7 @@
 [![Semver](http://img.shields.io/SemVer/2.0.0.png)](https://shields.io/)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-Maricopa Association of Governments (MAG) [Prettier](https://prettier.io) config for use in project files.
+This repo is a Maricopa Association of Governments (MAG) [Prettier](https://prettier.io) config for use in project files.
 
 ## Usage
 
