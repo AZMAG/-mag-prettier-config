@@ -33,10 +33,10 @@ If you change any options, it’s recommended to do it via the [configuration fi
 
 ## Version
 
-### version | 1.0.10
+### version | 1.0.0
 
-- #### Updated | 2021-10-19
-- #### Created | 2021-05-18
+- #### Updated | 2021-11-08
+- #### Created | 2021-11-08
 
 Releases will be numbered with the following format:
 
