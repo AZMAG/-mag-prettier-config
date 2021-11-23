@@ -2,11 +2,13 @@
 
 # mag-prettier-config
 
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/AZMAG/mag-prettier-config)
-![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/AZMAG/mag-prettier-config)
-[![npm version](https://badge.fury.io/js/mag-prettier-config.svg)](https://badge.fury.io/js/mag-prettier-config)
-[![GitHub issues](https://img.shields.io/github/issues/AZMAG/mag-prettier-config)](https://github.com/AZMAG/mag-prettier-config/issues)
-[![GitHub license](https://img.shields.io/github/license/AZMAG/mag-prettier-config)](https://github.com/AZMAG/mag-prettier-config/blob/main/LICENSE)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/AZMAG/mag-prettier-config?style=flat-square)
+![GitHub Release Date](https://img.shields.io/github/release-date/AZMAG/mag-prettier-config?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/AZMAG/mag-prettier-config?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues-raw/AZMAG/mag-prettier-config?style=flat-square)
+![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/AZMAG/mag-prettier-config?style=flat-square)
+![semver](https://img.shields.io/badge/semver-2.0.0-blue?style=flat-square)
+[![GitHub license](https://img.shields.io/github/license/AZMAG/mag-prettier-config?style=flat-square)](https://github.com/AZMAG/mag-prettier-config/blob/main/LICENSE)
 
 This repo is a Maricopa Association of Governments (MAG) [Prettier](https://prettier.io) config for use in project files.
 
@@ -60,16 +62,20 @@ And constructed with the following guidelines:
 2. **MINOR** version when you add functionality in a backwards-compatible manner **bumps the minor** resets patch
 3. **PATCH** version when you make backwards-compatible bug fixes and misc changes **bumps only the patch**
 
-## Credits
+## :star: Credits
 
 `Maricopa Association of Governments (MAG) and the MAG member agencies`
 
-## Licensing
+## :zap: Disclaimer
+
+- [DISCLAIMER](DISCLAIMER.md)
+
+## :warning: Licensing
 
 Copyright 2021 Maricopa Association of Governments (MAG)
 
-Code released under the MIT license.
+This project is licensed under the MIT license.
 
-- [LICENSE](LICENSE)
+[![GitHub license](https://img.shields.io/github/license/AZMAG/mag-prettier-config?style=flat-square)](https://github.com/AZMAG/mag-prettier-config/blob/main/LICENSE)
 
 [(Back to top)](#azmagprettier-config)
