@@ -12,6 +12,9 @@
 
 This repo is a Maricopa Association of Governments (MAG) [Prettier](https://prettier.io) config for use in project files.
 
+## :key: Keywords
+`config` `prettier` `prettier-config` `prettierrc` `prettierconfig` `maps` `mag` `mpo` `cog` `mag-maps`
+
 ## Usage
 
 **Install**:
@@ -61,6 +64,15 @@ And constructed with the following guidelines:
 1. **MAJOR** version when you make incompatible API changes **bumps the major** resets minor and patch
 2. **MINOR** version when you add functionality in a backwards-compatible manner **bumps the minor** resets patch
 3. **PATCH** version when you make backwards-compatible bug fixes and misc changes **bumps only the patch**
+
+## Technologies
+
+A list of technologies used within the project:
+
+<a href="https://prettier.io/" title="Prettier"><img src="https://github.com/get-icon/geticon/raw/master/icons/prettier.svg" alt="Prettier" width="31px" height="31px"></a>
+<a href="https://eslint.org/" title="ESLint"><img src="https://github.com/get-icon/geticon/raw/master/icons/eslint.svg" alt="ESLint" width="31px" height="31px"></a>
+<a href="https://www.npmjs.com/" title="npm"><img src="https://github.com/get-icon/geticon/raw/master/icons/npm.svg" alt="npm" width="31px" height="31px"></a>
+<a href="https://code.visualstudio.com/" title="vscode"><img src="https://github.com/get-icon/geticon/raw/master/icons/visual-studio-code.svg" alt="vscode" width="31px" height="31px"></a>
 
 ## :star: Credits
 
