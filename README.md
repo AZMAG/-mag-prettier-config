@@ -2,6 +2,7 @@
 
 # mag-prettier-config
 
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/AZMAG/mag-prettier-config)
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/AZMAG/mag-prettier-config)
 [![npm version](https://badge.fury.io/js/mag-prettier-config.svg)](https://badge.fury.io/js/mag-prettier-config)
@@ -40,6 +41,10 @@ Once you have installed the module you will need to add this reference to your `
 Prettier ships with a handful of format options.
 
 [Prettier Options](https://prettier.io/docs/en/options.html)
+
+## Current Options
+
+`{ "$schema": "http://json.schemastore.org/prettierrc", "printWidth": 100, "tabWidth": 2, "singleQuote": false, "trailingComma": "all", "endOfLine": "lf", "semi": false, "bracketSameLine": true }`
 
 If you change any options, it’s recommended to do it via the [configuration file](https://github.com/AZMAG/mag-prettier-config/blob/main/index.json).
 
