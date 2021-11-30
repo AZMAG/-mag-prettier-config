@@ -21,15 +21,19 @@ This is Maricopa Association of Governments (MAG) shareable [Prettier](https://p
 
 Install this Prettier config together with its peer dependencies:
 
+#### Install with npm
+
 ```bash
 $ npm i mag-prettier-config --save-dev
 ```
 
-or
+<details><summary>Install with <code>yarn</code></summary><p>
 
 ```bash
 $ yarn add mag-prettier-config --dev
 ```
+
+</p></details>
 
 ### Peer Dependencies
 
@@ -37,27 +41,35 @@ Peer dependencies need to be installed in order to make it work properly.
 
 - Prettier is an opinionated code formatter.
 
+  #### Install with npm
+
   ```bash
   $ npm i prettier --save-dev
   ```
 
-  or
+  <details><summary>Install with <code>yarn</code></summary><p>
 
   ```bash
   $ yarn add prettier --dev
   ```
 
+  </p></details>
+
 - eslint-config-prettier turns off all rules that are unnecessary or might conflict with [Prettier](https://prettier.io)
+
+  #### Install with npm
 
   ```bash
   $ npm i eslint-config-prettier --save-dev
   ```
 
-  or
+  <details><summary>Install with <code>yarn</code></summary><p>
 
   ```bash
   $ yarn add eslint-config-prettier --dev
   ```
+
+  </p></details>
 
 ## Usage
 
@@ -84,15 +96,37 @@ Prettier ships with a handful of format options.
 
 ## Current Options
 
-`{ "$schema": "http://json.schemastore.org/prettierrc", "printWidth": 100, "tabWidth": 2, "singleQuote": false, "trailingComma": "all", "endOfLine": "lf", "semi": false, "bracketSameLine": true }`
+`{ "$schema": "http://json.schemastore.org/prettierrc", "printWidth": 100, "tabWidth": 2, "useTabs": false, "singleQuote": false, "trailingComma": "all", "endOfLine": "lf", "semi": false, "bracketSameLine": true, "bracketSpacing": true, "htmlWhitespaceSensitivity": "css", "arrowParens": "always" }`
+
+<details><summary>**Prettier rules**</summary><p>
+
+This project defines the following settings in the file.
+
+| Rule                                                                                                | Value\*    |
+| --------------------------------------------------------------------------------------------------- | ---------- |
+| [`printWidth`](https://prettier.io/docs/en/options.html#print-width)                                | **`100`**  |
+| [`tabWidth`](https://prettier.io/docs/en/options.html#tab-width)                                    | `2`        |
+| [`useTabs`](https://prettier.io/docs/en/options.html#tabs)                                          | `false`    |
+| [`singleQuote`](https://prettier.io/docs/en/options.html#quotes)                                    | `false`    |
+| [`trailingComma`](https://prettier.io/docs/en/options.html#trailing-commas)                         | **`all`**  |
+| [`endOfLine`](https://prettier.io/docs/en/options.html#end-of-line)                                 | `lf`       |
+| [`semi`](https://prettier.io/docs/en/options.html#semicolons)                                       | `false`    |
+| [`bracketSameLine`](https://prettier.io/docs/en/options.html#jsx-brackets)                          | **`true`** |
+| [`bracketSpacing`](https://prettier.io/docs/en/options.html#bracket-spacing)                        | `true`     |
+| [`htmlWhitespaceSensitivity`](https://prettier.io/docs/en/options.html#html-whitespace-sensitivity) | `css`      |
+| [`arrowParens`](https://prettier.io/docs/en/options.html#arrow-parens)                              | `always`   |
+
+\* Values in **bold** differ from the Prettier defaults.
+
+</p></details>
 
 If you change any options, it’s recommended to do it via the [configuration file](https://github.com/AZMAG/mag-prettier-config/blob/main/index.json).
 
 ## Version
 
-### version | 1.0.3
+### version | 1.0.5
 
-- #### Updated | 2021-11-08
+- #### Updated | 2021-11-30
 - #### Created | 2021-11-08
 
 Releases will be numbered with the following format:
