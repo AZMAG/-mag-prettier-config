@@ -11,9 +11,10 @@
 ![semver](https://img.shields.io/badge/semver-2.0.0-blue?style=flat-square)
 [![GitHub license](https://img.shields.io/github/license/AZMAG/mag-prettier-config?style=flat-square)](https://github.com/AZMAG/mag-prettier-config/blob/main/LICENSE)
 
-This is Maricopa Association of Governments (MAG) shareable [Prettier](https://prettier.io) config for use in project files.  This module defines standard [Prettier](https://prettier.io) rules for code formatting to help format the code in all of our projects.
+This is Maricopa Association of Governments (MAG) shareable [Prettier](https://prettier.io) config for use in project files. This module defines standard [Prettier](https://prettier.io) rules for code formatting to help format the code in all of our projects.
 
 ## :key: Keywords
+
 `config` `prettier` `prettier-config` `prettierrc` `prettierconfig` `code-style` `style-guide` `mag`
 
 ## :gear: Installation
@@ -23,30 +24,37 @@ Install this Prettier config together with its peer dependencies:
 ```bash
 $ npm i mag-prettier-config --save-dev
 ```
+
 or
+
 ```bash
 $ yarn add mag-prettier-config --dev
 ```
 
 ### Peer Dependencies
+
 Peer dependencies need to be installed in order to make it work properly.
 
-* Prettier is an opinionated code formatter.
+- Prettier is an opinionated code formatter.
 
   ```bash
   $ npm i prettier --save-dev
   ```
-  or 
+
+  or
+
   ```bash
   $ yarn add prettier --dev
   ```
 
-* eslint-config-prettier turns off all rules that are unnecessary or might conflict with [Prettier](https://prettier.io)
+- eslint-config-prettier turns off all rules that are unnecessary or might conflict with [Prettier](https://prettier.io)
 
   ```bash
   $ npm i eslint-config-prettier --save-dev
   ```
-  or 
+
+  or
+
   ```bash
   $ yarn add eslint-config-prettier --dev
   ```
@@ -63,15 +71,20 @@ Once you have installed the module and its peer dependencies you will need to ad
     },
 }
 ```
+
 Previously, rules had been defined directly in a `.prettierrc `or `package.json`
 
-Any previous `.prettierrc` should be removed in favour of the shared config.
+Any previous `.prettierrc` should be removed in favor of the shared config.
 
 ## Options
 
 Prettier ships with a handful of format options.
 
 [Prettier Options](https://prettier.io/docs/en/options.html)
+
+## Current Options
+
+`{ "$schema": "http://json.schemastore.org/prettierrc", "printWidth": 100, "tabWidth": 2, "singleQuote": false, "trailingComma": "all", "endOfLine": "lf", "semi": false, "bracketSameLine": true }`
 
 If you change any options, it’s recommended to do it via the [configuration file](https://github.com/AZMAG/mag-prettier-config/blob/main/index.json).
 
