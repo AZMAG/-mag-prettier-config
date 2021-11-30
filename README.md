@@ -2,43 +2,70 @@
 
 # mag-prettier-config
 
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/AZMAG/mag-prettier-config?style=flat-square)
-![GitHub Release Date](https://img.shields.io/github/release-date/AZMAG/mag-prettier-config?style=flat-square)
-![GitHub last commit](https://img.shields.io/github/last-commit/AZMAG/mag-prettier-config?style=flat-square)
-![GitHub issues](https://img.shields.io/github/issues-raw/AZMAG/mag-prettier-config?style=flat-square)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/AZMAG/mag-prettier-config?&logo=github&style=flat-square)
+![GitHub Release Date](https://img.shields.io/github/release-date/AZMAG/mag-prettier-config?&logo=github&style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/AZMAG/mag-prettier-config?&logo=github&style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues-raw/AZMAG/mag-prettier-config?&logo=github&style=flat-square)
 ![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/AZMAG/mag-prettier-config?style=flat-square)
+![npm](https://img.shields.io/npm/v/mag-prettier-config?color=crimson&logo=npm&style=flat-square)
 ![semver](https://img.shields.io/badge/semver-2.0.0-blue?style=flat-square)
 [![GitHub license](https://img.shields.io/github/license/AZMAG/mag-prettier-config?style=flat-square)](https://github.com/AZMAG/mag-prettier-config/blob/main/LICENSE)
 
-This repo is a Maricopa Association of Governments (MAG) [Prettier](https://prettier.io) config for use in project files.
+This is Maricopa Association of Governments (MAG) shareable [Prettier](https://prettier.io) config for use in project files.  This module defines standard [Prettier](https://prettier.io) rules for code formatting to help format the code in all of our projects.
 
 ## :key: Keywords
-`config` `prettier` `prettier-config` `prettierrc` `prettierconfig` `maps` `mag` `mpo` `cog` `mag-maps`
+`config` `prettier` `prettier-config` `prettierrc` `prettierconfig` `code-style` `style-guide` `mag`
 
-## Usage
+## :gear: Installation
 
-**Install**:
+Install this Prettier config together with its peer dependencies:
 
 ```bash
 $ npm i mag-prettier-config --save-dev
 ```
-
 or
-
 ```bash
 $ yarn add mag-prettier-config --dev
 ```
 
-**Edit**:
+### Peer Dependencies
+Peer dependencies need to be installed in order to make it work properly.
 
-Once you have installed the module you will need to add this reference to your `package.json`
+* Prettier is an opinionated code formatter.
 
-```jsonc
+  ```bash
+  $ npm i prettier --save-dev
+  ```
+  or 
+  ```bash
+  $ yarn add prettier --dev
+  ```
+
+* eslint-config-prettier turns off all rules that are unnecessary or might conflict with [Prettier](https://prettier.io)
+
+  ```bash
+  $ npm i eslint-config-prettier --save-dev
+  ```
+  or 
+  ```bash
+  $ yarn add eslint-config-prettier --dev
+  ```
+
+## Usage
+
+Once you have installed the module and its peer dependencies you will need to add this reference to your `package.json`
+
+```
 {
-  // ...
-  "prettier": "mag-prettier-config"
+  "prettier": "mag-prettier-config",
+  "eslintConfig": {
+      "extends": ["prettier"]
+    },
 }
 ```
+Previously, rules had been defined directly in a `.prettierrc `or `package.json`
+
+Any previous `.prettierrc` should be removed in favour of the shared config.
 
 ## Options
 
