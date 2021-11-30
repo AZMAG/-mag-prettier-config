@@ -25,6 +25,8 @@
     "prettierconfig",
     "prettierrc",
     "config",
+    "style-guide",
+    "code-style",
     "mag"
   ],
   "dependencies": {},
