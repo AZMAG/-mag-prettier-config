@@ -2,17 +2,24 @@
 
 # mag-prettier-config
 
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/AZMAG/mag-prettier-config)
-![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/AZMAG/mag-prettier-config)
-[![npm version](https://badge.fury.io/js/mag-prettier-config.svg)](https://badge.fury.io/js/mag-prettier-config)
-[![GitHub issues](https://img.shields.io/github/issues/AZMAG/mag-prettier-config)](https://github.com/AZMAG/mag-prettier-config/issues)
-[![GitHub license](https://img.shields.io/github/license/AZMAG/mag-prettier-config)](https://github.com/AZMAG/mag-prettier-config/blob/main/LICENSE)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/AZMAG/mag-prettier-config?&logo=github&style=flat-square)
+![GitHub Release Date](https://img.shields.io/github/release-date/AZMAG/mag-prettier-config?&logo=github&style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/AZMAG/mag-prettier-config?&logo=github&style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues-raw/AZMAG/mag-prettier-config?&logo=github&style=flat-square)
+![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/AZMAG/mag-prettier-config?style=flat-square)
+![npm](https://img.shields.io/npm/v/mag-prettier-config?color=crimson&logo=npm&style=flat-square)
+![semver](https://img.shields.io/badge/semver-2.0.0-blue?style=flat-square)
+[![GitHub license](https://img.shields.io/github/license/AZMAG/mag-prettier-config?style=flat-square)](https://github.com/AZMAG/mag-prettier-config/blob/main/LICENSE)
 
-This repo is a Maricopa Association of Governments (MAG) [Prettier](https://prettier.io) config for use in project files.
+This is Maricopa Association of Governments (MAG) shareable [Prettier](https://prettier.io) config for use in project files. This module defines standard [Prettier](https://prettier.io) rules for code formatting to help format the code in all of our projects.
 
-## Usage
+## :key: Keywords
 
-**Install**:
+`config` `prettier` `prettier-config` `prettierrc` `prettierconfig` `code-style` `style-guide` `mag`
+
+## :gear: Installation
+
+Install this Prettier config together with its peer dependencies:
 
 ```bash
 $ npm i mag-prettier-config --save-dev
@@ -24,22 +31,60 @@ or
 $ yarn add mag-prettier-config --dev
 ```
 
-**Edit**:
+### Peer Dependencies
 
-Once you have installed the module you will need to add this reference to your `package.json`
+Peer dependencies need to be installed in order to make it work properly.
 
-```jsonc
+- Prettier is an opinionated code formatter.
+
+  ```bash
+  $ npm i prettier --save-dev
+  ```
+
+  or
+
+  ```bash
+  $ yarn add prettier --dev
+  ```
+
+- eslint-config-prettier turns off all rules that are unnecessary or might conflict with [Prettier](https://prettier.io)
+
+  ```bash
+  $ npm i eslint-config-prettier --save-dev
+  ```
+
+  or
+
+  ```bash
+  $ yarn add eslint-config-prettier --dev
+  ```
+
+## Usage
+
+Once you have installed the module and its peer dependencies you will need to add this reference to your `package.json`
+
+```
 {
-  // ...
-  "prettier": "mag-prettier-config"
+  "prettier": "mag-prettier-config",
+  "eslintConfig": {
+      "extends": ["prettier"]
+    },
 }
 ```
+
+Previously, rules had been defined directly in a `.prettierrc `or `package.json`
+
+Any previous `.prettierrc` should be removed in favor of the shared config.
 
 ## Options
 
 Prettier ships with a handful of format options.
 
 [Prettier Options](https://prettier.io/docs/en/options.html)
+
+## Current Options
+
+`{ "$schema": "http://json.schemastore.org/prettierrc", "printWidth": 100, "tabWidth": 2, "singleQuote": false, "trailingComma": "all", "endOfLine": "lf", "semi": false, "bracketSameLine": true }`
 
 If you change any options, it’s recommended to do it via the [configuration file](https://github.com/AZMAG/mag-prettier-config/blob/main/index.json).
 
@@ -60,16 +105,29 @@ And constructed with the following guidelines:
 2. **MINOR** version when you add functionality in a backwards-compatible manner **bumps the minor** resets patch
 3. **PATCH** version when you make backwards-compatible bug fixes and misc changes **bumps only the patch**
 
-## Credits
+## Technologies
+
+A list of technologies used within the project:
+
+<a href="https://prettier.io/" title="Prettier"><img src="https://github.com/get-icon/geticon/raw/master/icons/prettier.svg" alt="Prettier" width="31px" height="31px"></a>
+<a href="https://eslint.org/" title="ESLint"><img src="https://github.com/get-icon/geticon/raw/master/icons/eslint.svg" alt="ESLint" width="31px" height="31px"></a>
+<a href="https://www.npmjs.com/" title="npm"><img src="https://github.com/get-icon/geticon/raw/master/icons/npm.svg" alt="npm" width="31px" height="31px"></a>
+<a href="https://code.visualstudio.com/" title="vscode"><img src="https://github.com/get-icon/geticon/raw/master/icons/visual-studio-code.svg" alt="vscode" width="31px" height="31px"></a>
+
+## :star: Credits
 
 `Maricopa Association of Governments (MAG) and the MAG member agencies`
 
-## Licensing
+## :zap: Disclaimer
+
+- [DISCLAIMER](DISCLAIMER.md)
+
+## :warning: Licensing
 
 Copyright 2021 Maricopa Association of Governments (MAG)
 
-Code released under the MIT license.
+This project is licensed under the MIT license.
 
-- [LICENSE](LICENSE)
+[![GitHub license](https://img.shields.io/github/license/AZMAG/mag-prettier-config?style=flat-square)](https://github.com/AZMAG/mag-prettier-config/blob/main/LICENSE)
 
-[(Back to top)](#azmagprettier-config)
+[(Back to top)](#mag-prettier-config)
