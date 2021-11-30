@@ -90,4 +90,4 @@ This project is licensed under the MIT license.
 
 [![GitHub license](https://img.shields.io/github/license/AZMAG/mag-prettier-config?style=flat-square)](https://github.com/AZMAG/mag-prettier-config/blob/main/LICENSE)
 
-[(Back to top)](#azmagprettier-config)
+[(Back to top)](#mag-prettier-config)
