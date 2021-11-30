@@ -1,7 +1,7 @@
 {
   "name": "mag-prettier-config",
-  "version": "1.0.4",
-  "date": "2021-11-24",
+  "version": "1.0.5",
+  "date": "2021-11-30",
   "copyright": "2021",
   "description": "MAG shareable Prettier config for code formatting.",
   "private": false,
