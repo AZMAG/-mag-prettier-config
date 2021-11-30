@@ -21,7 +21,7 @@ This is Maricopa Association of Governments (MAG) shareable [Prettier](https://p
 
 Install this Prettier config together with its peer dependencies:
 
-#### Install with npm
+#### Install with `npm`
 
 ```bash
 $ npm i mag-prettier-config --save-dev
@@ -41,7 +41,7 @@ Peer dependencies need to be installed in order to make it work properly.
 
 - Prettier is an opinionated code formatter.
 
-  #### Install with npm
+  #### Install with `npm`
 
   ```bash
   $ npm i prettier --save-dev
@@ -57,7 +57,7 @@ Peer dependencies need to be installed in order to make it work properly.
 
 - eslint-config-prettier turns off all rules that are unnecessary or might conflict with [Prettier](https://prettier.io)
 
-  #### Install with npm
+  #### Install with `npm`
 
   ```bash
   $ npm i eslint-config-prettier --save-dev
@@ -96,9 +96,24 @@ Prettier ships with a handful of format options.
 
 ## Current Options
 
-`{ "$schema": "http://json.schemastore.org/prettierrc", "printWidth": 100, "tabWidth": 2, "useTabs": false, "singleQuote": false, "trailingComma": "all", "endOfLine": "lf", "semi": false, "bracketSameLine": true, "bracketSpacing": true, "htmlWhitespaceSensitivity": "css", "arrowParens": "always" }`
+```
+{
+  "$schema": "http://json.schemastore.org/prettierrc",
+  "printWidth": 100,
+  "tabWidth": 2,
+  "useTabs": false,
+  "singleQuote": false,
+  "trailingComma": "all",
+  "endOfLine": "lf",
+  "semi": false,
+  "bracketSameLine": true,
+  "bracketSpacing": true,
+  "htmlWhitespaceSensitivity": "css",
+  "arrowParens": "always"
+}
+```
 
-<details><summary>**Prettier rules**</summary><p>
+<details><summary><strong>Prettier rules</strong></summary><p>
 
 This project defines the following settings in the file.
 
@@ -124,7 +139,7 @@ If you change any options, it’s recommended to do it via the [configuration fi
 
 ## Version
 
-### version | 1.1.0
+### version | 1.1.1
 
 - #### Updated | 2021-11-30
 - #### Created | 2021-11-08
