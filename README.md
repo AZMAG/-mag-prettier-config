@@ -1,5 +1,3 @@
-![](http://geo.azmag.gov/maps/readonaz/app/resources/img/maglogo_black.png)
-
 # mag-prettier-config
 
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/AZMAG/mag-prettier-config?&logo=github&style=flat-square)
@@ -139,9 +137,9 @@ If you change any options, it’s recommended to do it via the [configuration fi
 
 ## Version
 
-### version | 1.1.1
+### version | 1.1.2
 
-- #### Updated | 2021-11-30
+- #### Updated | 2024-07-30
 - #### Created | 2021-11-08
 
 Releases will be numbered with the following format:

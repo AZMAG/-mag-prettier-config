@@ -1,8 +1,9 @@
 {
   "name": "mag-prettier-config",
-  "version": "1.1.1",
-  "date": "2021-11-30",
-  "copyright": "2021",
+  "version": "1.1.2",
+  "date": "2024-07-30",
+  "created": "2021-11-08",
+  "copyright": "2024",
   "description": "MAG shareable Prettier config for code formatting.",
   "private": false,
   "main": "index.json",
@@ -31,7 +32,7 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "prettier": "^2.4.1",
+    "prettier": "^3.3.3",
     "replace-in-file": "^6.2.0"
   },
   "scripts": {

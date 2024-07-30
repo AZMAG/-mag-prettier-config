@@ -9,8 +9,8 @@ const reUpdate = new RegExp("(Updated | )([0-9]{4}-[0-9]{2}-[0-9]{2})");
 const newUpdate = " " + pkg.date;
 
 //LICENCE
-const reCopyDate = new RegExp("([0-9]{4})");
-const newCopyDate = pkg.copyright;
+const reCopyDate = new RegExp("(Copyright \\(c\\) )([0-9]{4})");
+const newCopyDate = "Copyright (c) " + pkg.copyright;
 
 const options = {
   files: ["./README.md", "./LICENSE"],
